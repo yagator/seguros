@@ -1,13 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> 
+        <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+        <script src="js/base.js"></script>
     </head>
     <body>
-        <h1>Seguros On-Demand</h1>
+        <header id="home">
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="glyphicon glyphicon-home"></i></a></li>
+                    <li><a href="#about">Acerca</a></li>
+                    <li><a href="#choose">Selecciona</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h1 class="ali">Seguros On-Demand</h1>
+            </section>
+        </header>
+        <main>
+            <section id="about">
+                <p>
+                    Protege solamente lo que tú desees, exactamente cuando tú lo desees.
+                </p>
+            </section>
+            <section id="choose">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <figure>
+                            <img class="img-responsive" alt="" src="img/touchbar_mbp15_large.jpg" />
+                        </figure>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <figure>
+                            <img class="img-responsive" alt="" src="img/d3300_01_01.png" />
+                        </figure>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <figure>
+                            <img class="img-responsive" alt="" src="img/iphone6s_techspecs_large.jpg" />
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section id="buy">
+                <div class="text-center">
+                    <button class="btn btn-success">
+                        LISTO! <i class="glyphicon glyphicon-check"></i>
+                    </button>
+                </div>
+            </section>
+        </main>
+        <a name="about"></a>
+        <footer>
+            <p class="text-center">&copy; Derechos reservados Ulama Labs 2017.</p>
+        </footer>
     </body>
 </html>
